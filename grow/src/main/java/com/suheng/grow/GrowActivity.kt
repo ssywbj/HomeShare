@@ -7,11 +7,12 @@ class GrowActivity : AppCompatActivity() {
 
     private val pi = 3.14
     private var y: Int = 11
+    private val items = listOf("kiwifruit", "apple", "banana")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_grow)
-        println("sum two = " + sum(3, 6))
+        /*println("sum two = " + sum(3, 6))
         println("sum three = ${sum(3, 6, 9)}")
         printUnit(4, 2)
         printUnit(4, 2, 90)
@@ -41,6 +42,26 @@ class GrowActivity : AppCompatActivity() {
         printProduct("34", "2")
         printProduct("3E4", "8")
         printProduct("34", "Rr")
+
+        printLength("suheng")
+        printLength(1000)
+        printLength(listOf(Any()))
+
+        describeIn(3)
+        describeIn(4)
+        describeIn(7)
+        describeIn(12)
+        describeIn(13)
+
+        println(chooseWhen(1))
+        println(chooseWhen("Hello"))
+        println(chooseWhen(1000L))
+        println(chooseWhen(2))
+        println(chooseWhen(2.9f))
+        println(chooseWhen("other"))*/
+
+        printForAndIteration()
+        printWhile()
     }
 
     private fun sum(a: Int, b: Int): Int { //定义函数：返回值类型为Int
@@ -91,9 +112,88 @@ class GrowActivity : AppCompatActivity() {
     // 那么检测后的分支中可以直接当作该类型使用，无需显式转换。
     private fun getStringLength(obj: Any): Int? {
         if (obj is String) {
-            return obj.length //'obj'在该条件分支内自动转换成'String'
+            return obj.length //'obj'在该条件分支内自动转换成String
         }
 
-        return null //在离开类型检测分支后，'obj'仍然是'Any'类型
+        return null //在离开类型检测分支后，'obj'仍然是Any类型
+    }
+
+    private fun getStringLen(obj: Any): Int? {
+        if (obj !is String) return null
+        return obj.length //'obj'在这一分支内自动转换成String
+    }
+
+    private fun getStringLen2(obj: Any): Int? {
+        //'obj'在'&&'的右边自动转换成String
+        if (obj is String && obj.length > 0) {
+            return obj.length
+        }
+
+        return null
+    }
+
+    private fun printLength(obj: Any) {
+        println("'$obj' string length is ${getStringLength(obj) ?: "error, not a string"}")
+    }
+
+    //使用区间（range）:使用in运算符来检测某个数字是否在指定区间内
+    private fun describeIn(x: Int) {
+        val y = 11
+        if (x in 4..y + 1) { //..区间运算符
+            println("$x in range(4, ${y + 1})")
+        }
+
+        if (x !in 4..y + 1) {
+            println("$x out range(4, ${y + 1})")
+        }
+    }
+
+    //when表达式
+    private fun chooseWhen(obj: Any): String =
+        when (obj) {
+            1 -> "One"
+            "Hello" -> "Greeting"
+            is Long -> "Long"
+            !is String -> "Not a string"
+            else -> "Unknown"
+        }
+
+    //for循环
+    private fun printForAndIteration() {
+        for (item in items) { //集合迭代
+            print("$item\t")
+        }
+        println()
+        for (index in items.indices) { //区间迭代，list.indices：数组下标区间，items.size：数组长度
+            println("item at $index is ${items[index]}, items.indices = ${items.indices}, items.size = ${items.size}")
+        }
+
+        print("数列迭代：")
+        for (x in 1..9 step 3) { //数列迭代：从第一个开始，每三个输出一次（初始值为1差值为3的等差数列，下标从零开始）
+            print("$x\t")
+        }
+        println()
+        print("数列迭代：")
+        for (x in 9 downTo 0 step 4) { //数列迭代：从第一个开始，每四个输出一次（初始值为9差值为4的等差数列，下标从零开始）
+            print("$x\t")
+        }
+        println()
+
+        when {
+            "orange" in items -> println("juicy")
+            "apple" in items -> println("apple is fine too")
+        }
+
+        items.filter { it.startsWith("b") }
+            .map { it.toUpperCase() }
+            .forEach { (println(it)) }
+    }
+
+    //while循环
+    private fun printWhile() {
+        var index = 0
+        while (index < items.size) {
+            println("while, item at $index is ${items[index++]}")
+        }
     }
 }
