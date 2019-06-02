@@ -11,10 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10f49ece-3423-4582-ac10-05a7df428a1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/grammar/Grammar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/GrammarTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
@@ -24,8 +21,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_android_28.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
@@ -57,11 +54,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grow/grow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/grow/grow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/GrowActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/GrowActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/grammar/Grammar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/grammar/Grammar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/GrammarTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/GrammarTest.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,32 +84,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/GrowActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="114">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/ExampleUnitTest.kt">
+        <entry file="file://$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/GrammarTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="1596">
+              <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
               <folding>
-                <element signature="e#25#73#0" expanded="true" />
+                <element signature="e#25#132#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/GrammarTest.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/grammar/Grammar.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-              <folding>
-                <element signature="e#25#132#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -133,6 +137,7 @@
       <find>printLength</find>
       <find>items</find>
       <find>y</find>
+      <find>printUnit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,24 +146,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/GrowActivity.kt" />
         <option value="$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/ExampleUnitTest.kt" />
-        <option value="$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/GrammarTest.kt" />
+        <option value="$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/GrowActivity.kt" />
         <option value="$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/grammar/Grammar.kt" />
+        <option value="$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/GrammarTest.kt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="360" />
-    <option name="y" value="28" />
-    <option name="width" value="1393" />
-    <option name="height" value="1009" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-187" />
+    <option name="y" value="48" />
+    <option name="width" value="1394" />
+    <option name="height" value="1010" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -189,42 +195,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="HomeShare" type="1abcf292:AndroidViewProjectNode" />
-              <item name="grow" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="HomeShare" type="1abcf292:AndroidViewProjectNode" />
-              <item name="grow" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="HomeShare" type="1abcf292:AndroidViewProjectNode" />
-              <item name="grow" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="grow" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShare" type="1abcf292:AndroidViewProjectNode" />
-              <item name="grow" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="grow" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShare" type="1abcf292:AndroidViewProjectNode" />
-              <item name="grow" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="grow" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,42 +217,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android JUnit.GrammarTest.testSum">
-    <configuration name="ExampleUnitTest.addition_isCorrect" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="grow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.suheng.grow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.suheng.grow" />
-      <option name="MAIN_CLASS_NAME" value="com.suheng.grow.ExampleUnitTest" />
-      <option name="METHOD_NAME" value="addition_isCorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleUnitTest.testSum" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="grow" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.suheng.grow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.suheng.grow" />
-      <option name="MAIN_CLASS_NAME" value="com.suheng.grow.ExampleUnitTest" />
-      <option name="METHOD_NAME" value="testSum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GrammarTest.testSum" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Android JUnit.GrammarTest.testForWhile">
+    <configuration name="GrammarTest.testChooseWhen" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="grow" />
       <extension name="coverage">
         <pattern>
@@ -289,7 +228,75 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.suheng.grow" />
       <option name="MAIN_CLASS_NAME" value="com.suheng.grow.GrammarTest" />
-      <option name="METHOD_NAME" value="testSum" />
+      <option name="METHOD_NAME" value="testChooseWhen" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrammarTest.testDescribeIn" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suheng.grow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suheng.grow" />
+      <option name="MAIN_CLASS_NAME" value="com.suheng.grow.GrammarTest" />
+      <option name="METHOD_NAME" value="testDescribeIn" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrammarTest.testForWhile" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suheng.grow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suheng.grow" />
+      <option name="MAIN_CLASS_NAME" value="com.suheng.grow.GrammarTest" />
+      <option name="METHOD_NAME" value="testForWhile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrammarTest.testPrintLength" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suheng.grow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suheng.grow" />
+      <option name="MAIN_CLASS_NAME" value="com.suheng.grow.GrammarTest" />
+      <option name="METHOD_NAME" value="testPrintLength" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrammarTest.testPrintProduct" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="grow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suheng.grow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.suheng.grow" />
+      <option name="MAIN_CLASS_NAME" value="com.suheng.grow.GrammarTest" />
+      <option name="METHOD_NAME" value="testPrintProduct" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -411,9 +418,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android JUnit.GrammarTest.testSum" />
-        <item itemvalue="Android JUnit.ExampleUnitTest.testSum" />
-        <item itemvalue="Android JUnit.ExampleUnitTest.addition_isCorrect" />
+        <item itemvalue="Android JUnit.GrammarTest.testForWhile" />
+        <item itemvalue="Android JUnit.GrammarTest.testChooseWhen" />
+        <item itemvalue="Android JUnit.GrammarTest.testDescribeIn" />
+        <item itemvalue="Android JUnit.GrammarTest.testPrintLength" />
+        <item itemvalue="Android JUnit.GrammarTest.testPrintProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -431,21 +440,43 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExampleUnitTest_addition_isCorrect - 2019.05.31 at 14h 53m 32s.xml">
-      <configuration name="ExampleUnitTest.addition_isCorrect" configurationId="AndroidJUnit" />
+    <history-entry file="GrammarTest_testAssignment - 2019.06.03 at 00h 33m 03s.xml">
+      <configuration name="GrammarTest.testAssignment" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="ExampleUnitTest_testSum - 2019.05.31 at 17h 48m 43s.xml">
-      <configuration name="ExampleUnitTest.testSum" configurationId="AndroidJUnit" />
+    <history-entry file="GrammarTest_testAssignment - 2019.06.03 at 00h 33m 51s.xml">
+      <configuration name="GrammarTest.testAssignment" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="GrammarTest_testSum - 2019.05.31 at 17h 53m 01s.xml">
-      <configuration name="GrammarTest.testSum" configurationId="AndroidJUnit" />
+    <history-entry file="GrammarTest_testPrintUnit - 2019.06.03 at 00h 36m 09s.xml">
+      <configuration name="GrammarTest.testPrintUnit" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="GrammarTest_testMaxOf - 2019.06.03 at 00h 41m 23s.xml">
+      <configuration name="GrammarTest.testMaxOf" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="GrammarTest_testPrintProduct - 2019.06.03 at 00h 43m 13s.xml">
+      <configuration name="GrammarTest.testPrintProduct" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="GrammarTest_testPrintLength - 2019.06.03 at 00h 45m 24s.xml">
+      <configuration name="GrammarTest.testPrintLength" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="GrammarTest_testDescribeIn - 2019.06.03 at 00h 46m 53s.xml">
+      <configuration name="GrammarTest.testDescribeIn" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="GrammarTest_testChooseWhen - 2019.06.03 at 00h 48m 11s.xml">
+      <configuration name="GrammarTest.testChooseWhen" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="GrammarTest_testForWhile - 2019.06.03 at 00h 50m 43s.xml">
+      <configuration name="GrammarTest.testForWhile" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="GrammarTest_testForWhile - 2019.06.03 at 01h 00m 59s.xml">
+      <configuration name="GrammarTest.testForWhile" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="360" y="28" width="1393" height="1009" extended-state="1" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22055514" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15616623" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -453,15 +484,15 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.29259694" />
+      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.14872521" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.35658154" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.43830788" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.24645892" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -471,14 +502,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/grow/src/main/res/layout/activity_grow.xml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
@@ -513,23 +541,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/GrowActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/grammar/Grammar.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/ExampleUnitTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="304">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#25#73#0" expanded="true" />
@@ -537,13 +551,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/b8815e48fb45e94821287365bd9ce8623f459ac7/kotlin-stdlib-1.3.21-sources.jar!/kotlin/io/Console.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/GrowActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grow/src/test/java/com/suheng/grow/GrammarTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="49" lean-forward="true" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="1596">
+          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
           <folding>
             <element signature="e#25#132#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grow/src/main/java/com/suheng/grow/grammar/Grammar.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
