@@ -45,9 +45,9 @@ class GrammarTest {
     @Test
     fun testPrintProduct() {
         val grammar = Grammar()
-        grammar.printProduct("34", "2")
-        grammar.printProduct("3E4", "8")
-        grammar.printProduct("34", "Rr")
+        grammar.printParseInt("34", "2")
+        grammar.printParseInt("3E4", "8")
+        grammar.printParseInt("34", "Rr")
     }
 
     @Test
@@ -84,5 +84,29 @@ class GrammarTest {
         val grammar = Grammar()
         grammar.printForAndIteration()
         grammar.printWhile()
+    }
+
+    @Test
+    fun testTraversalMap() {
+        val grammar = Grammar()
+        grammar.traversalMap()
+    }
+
+    @Test
+    fun testIfNullAbbreviation() {
+        val grammar = Grammar()
+        grammar.ifNullAbbreviation()
+    }
+
+    @Test
+    fun testSubSequence() {
+        val grammar = Grammar()
+        grammar.subSequence()
+    }
+
+    @Test
+    fun testExchangeTwoValue() {
+        val grammar = Grammar()
+        grammar.exchangeTwoValue()
     }
 }
