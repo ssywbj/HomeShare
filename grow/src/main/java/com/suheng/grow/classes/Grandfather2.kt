@@ -1,3 +1,3 @@
 package com.suheng.grow.classes
 
-open class Constructors(x:Int)
+open class Grandfather2(x: Int)
