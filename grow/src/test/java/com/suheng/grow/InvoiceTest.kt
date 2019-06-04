@@ -1,6 +1,7 @@
 package com.suheng.grow
 
-import com.suheng.grow.grammar.Invoice
+import com.suheng.grow.classes.Invoice
+import com.suheng.grow.grammar.Grammar
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
@@ -19,6 +20,11 @@ class InvoiceTest {
     fun testInvoice() {
         val invoice = Invoice("Wei")
         println(invoice.secondProperty)
+    }
+
+    @Test
+    fun testConstructors() {
+        Invoice("Wei", Grammar())
     }
 
 }
