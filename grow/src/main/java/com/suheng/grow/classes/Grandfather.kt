@@ -11,4 +11,6 @@ open class Grandfather { //使用open关键字声明的类才能被继承，否�
     open val x: Int = 21
     val y: Int = 31
     open val z: Int = 41
+    open val w: Int = 51
+    open fun printWValue() = println("main constructor override, w = $w")
 }

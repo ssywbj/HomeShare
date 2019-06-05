@@ -1,6 +1,6 @@
 package com.suheng.grow.classes
 
-class Children : Father() {
+class Children : Father(53) {
 
     override fun nv() = println("Children, nv()")
 
